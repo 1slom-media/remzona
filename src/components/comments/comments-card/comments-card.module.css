@@ -1,0 +1,28 @@
+.card{
+    padding: 50px 20px;
+    max-width: 466px;
+    min-height: 270px;
+    background-color: #FFDF9F;
+    text-align: center;
+}
+
+.stars{
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    margin-bottom: 70px;
+}
+
+.card>p{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 16px;
+    margin-bottom: 40px;
+}
+
+.card>h4{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 16px;
+
+}

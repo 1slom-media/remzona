@@ -1,0 +1,188 @@
+.advantages {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    background-image: url(../../assets/advantages-bg.png);
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.advantages_row{
+    margin: 0 !important;
+}
+
+.advantages_col>h2{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 61px;
+    color: #0A0A0A;
+    margin-bottom: 15px;
+    max-width: 550px;
+}
+
+.advantages_col>h4{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #0A0A0A;
+}
+
+.advantages_heading {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-bottom: 15px;
+}
+
+.advantages_heading>h4 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    color: #EB3300;
+    text-transform: uppercase;
+}
+
+.advantages_cards{
+    display: flex;
+    background-color: #F6F7F9;
+    padding: 30px 20px;
+}
+
+.advantages_card>h5 {
+    max-width: 210px;
+    color: #0A0A0A;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.advantages_card>p{
+    line-height: 28px;
+    color: #4b4b4b;
+    max-width: 215px;
+}
+
+.advantages_line{
+    width: 496px;
+    height: 10px;
+    background-color: #F3F1F2;
+    margin-bottom: 20px;
+}
+
+.advantages_line>div{
+    width: 90%;
+    height: 10px;
+    background-color: #EB3300;
+}
+
+.advantages_contact{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.advantages_contact_phone{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(235, 51, 0,.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.advantages_contact_content>h6{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #4b4b4b;
+}
+
+.advantages_contact_content>a{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #0A0A0A;
+}
+
+.advantages_right_wrapper{
+    position: relative;
+}
+
+.advantages_right_content{
+    position: absolute;
+    right: 40px;
+    bottom: 56px;
+    max-width: 297px;
+    background-image: url(../../assets/military-icon.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: auto;
+    border-left: 4px solid #EB3300;
+    padding: 37px 50px;
+    background-color: #ffffff;
+}
+
+.advantages_right_content>h4{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #0A0A0A;
+}
+
+.advantages_right_content>p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #4b4b4b;
+    max-width: 172px;
+}
+
+@media only screen and (max-width: 1207px){
+    .advantages_right_col{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center !important;
+    }
+}
+
+@media only screen and (max-width: 690px){
+
+    .advantages_col{
+        display: flex;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .advantages_col>h2{
+        text-align: center;
+    }
+
+    .advantages_cards{
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .advantages_right_col{
+        flex: 0 0 100% !important;
+    }
+
+    .advantages_right_wrapper{
+        width: 100%;
+    }
+
+    .advantages_right_wrapper>img{
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 520px){
+    .advantages_line{
+        width: 90%;
+    }
+}

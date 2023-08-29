@@ -1,0 +1,113 @@
+.about {
+    padding-top: 75px;
+    padding-bottom: 100px;
+    background-image: url(../../assets/about-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+}
+
+.about_row {
+    margin: 0 !important;
+    justify-content: space-evenly !important;
+}
+
+.about_left_content {
+    position: absolute;
+    top: 60px;
+    display: flex;
+    align-items: center;
+    padding: 13px 20px;
+    background-color: #E5D2D2;
+    width: 200px;
+    left: -100px;
+}
+
+.about_left_content>h5 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-left: 20px;
+}
+
+.about_right_col>h2 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61.2px;
+    margin-bottom: 40px;
+    color: #0A0A0A;
+}
+
+.about_heading {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-bottom: 15px;
+}
+
+.about_heading>h4 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    color: #EB3300;
+    text-transform: uppercase;
+}
+
+.about_right_col>p {
+    line-height: 28px;
+    color: #4B4B4B;
+    max-width: 620px;
+}
+
+@media only screen and (max-width: 1115px) {
+    .about_row {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .about_right_col {
+        order: -1;
+        width: 60% !important;
+        flex: 0 0 50% !important;
+        max-width: 60% !important;
+        text-align: center;
+        margin-bottom: 40px !important;
+    }
+
+    .about_left_col {
+        justify-content: center !important;
+        text-align: center;
+    }
+
+    .about_left_content {
+        left: -10%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .about_right_col {
+        order: -1;
+        width: 90% !important;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        text-align: center;
+        margin-bottom: 40px !important;
+    }
+
+    .about_heading{
+       justify-content: center;
+    }
+
+    .about_left_content {
+        left: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .about_left_col>img{
+        max-width: 100%;
+    }
+
+    .about_left_content {
+        left: 4%;
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "Header":{
+        "0":"Du-Sha 09 - 05",
+        "1":"Toshkent, O`zbekiston",
+        "2":"Kompaniya haqida",
+        "3":"Xizmatlar",
+        "4":"Nega biz",
+        "5":"Portfolio",
+        "6":"Sertifikat",
+        "7":"Blog va yangiliklar",
+        "8":"Arizangizni yuboring"
+    },
+    "Hero":{
+        "0":"Remzona.uz: Sovutgich va iqlim uskunalarini ta'mirlash va texnik xizmat ko'rsatish bo'yicha mutaxassislar",
+        "1":"Remzona.uz saytiga xush kelibsiz - sovutish va konditsioner uskunalariga sifatli texnik xizmat ko'rsatish va ta'mirlash bilan shug'ullanadigan tajribali mutaxassislar jamoasi.",
+        "2":"Qo'ng'iroq qiling",
+        "3":"Favqulodda yo'l xizmati uchun 24/7 mavjud"
+    },
+    "About":{
+        "0":"Usta",
+        "1":"Kompaniya haqida",
+        "2":"Remzona.uz saytiga xush kelibsiz",
+        "3":"Remzona.uz - sovutish va konditsioner uskunalariga yuqori sifatli texnik xizmat ko'rsatish va ta'mirlash bilan shug'ullanadigan tajribali mutaxassislar jamoasi. Biz keng ko'lamli xizmatlar ko'rsatish sohasidagi boy tajribamiz va ishonchli obro'miz bilan faxrlanamiz. Bizning mutaxassislarimiz har xil turdagi uskunalarni ta'mirlash, texnik xizmat ko'rsatish va oldini olishga ixtisoslashgan. Biz sovutgichlar, VRV konditsioner tizimlari, keng harorat diapazoniga ega muzlatgichlarni ta'mirlash xizmatlarini bemalol taqdim etamiz - musbat haroratdan zarbali muzlashgacha. Qiyinchilikdan qat'i nazar, bizning jamoamiz jihozlaringizning uzluksiz ishlashini ta'minlash uchun ilg'or texnologiya va tasdiqlangan usullardan foydalanadi."
+    },
+    "Services":{
+        "0":"Bizning xizmatlarimiz",
+        "1":"Sizning ehtiyojlaringiz, bizning xizmatlar: Remzona.uz dan kompleks yondashuv",
+        "2":"VRV tizimini ta'mirlash",
+        "3":"VRV konditsioner tizimlari har xil turdagi binolarda qulay iqlimni saqlash uchun ilg'or echimlardir.",
+        "4":"Muzlatgichni ta'mirlash",
+        "5":"Har qanday haroratdagi muzlatgichlarni o'rnatishni ta'mirlash, plyusdan zarbali muzlashgacha",
+        "6":"Kir yuvish mashinalarini ta'mirlash",
+        "7":"Ta'mirlashni boshlashdan oldin biz sizga kir yuvish mashinangizning holatini batafsil baholaymiz va qanday ish kerakligini tushuntiramiz."
+    },
+    "Banner":{
+        "0":"Professional xizmat uchun ariza",
+        "1":"Biz bilan bog'lanish"
+    },
+    "Advantages":{
+        "0":"Nega aynan biz",
+        "1":"Uskunangizga g'amxo'rlik qilish: Bizning professional texnik xizmatlarimiz",
+        "2":"Sifatli qismlar va uskunalar",
+        "3":"Tekshirish va ta'mirlash o'z ichiga olishi mumkin",
+        "4":"Professional Muhandis",
+        "5":"Umuman olganda, professional Muhandislar o'ynaydi",
+        "6":"Do'stona 24/7 Xizmatlar",
+        "7":"Do'stona xizmat bo'lganlar",
+        "8":"Mijoz mamnun",
+        "9":"biz bilan bog'lanish",
+        "10":"Bizning xizmatlarimizdan xursand mijozlar"
+    },
+    "Portfolio":{
+        "0":"Portfolio",
+        "1":"Biz yaqinda sodir bo'lgan voqea bilan faxrlanamiz Muvaffaqiyatli ish"
+    },
+    "Comments":{
+        "0":"Sertifikat",
+        "1":"Mijozlar biz haqimizda nima deyishadi",
+        "2":"“Remzona.uz” hamisha yuqorida turgan ishonchli hamkor. Ularning mutaxassislari sifatli ta'mirlashni ta'minlab, jihozlar bilan bog'liq har qanday muammolarga tezda javob berishadi. Professionallik uchun rahmat!",
+        "3":"Bobur Abdullayev",
+        "4":"“Remzona.uz” bilan hamkorlik kafolatlangan sifatli va tezkor xizmatdir. Ular iqlim uskunalarini ta'mirlash va texnik xizmat ko'rsatish sohasida o'zlarini mutaxassislar sifatida ko'rsatdilar. Tavsiya etiladi!",
+        "5":"Asadulla Abdukarimovich",
+        "6":"“Remzona.uz” bizning ishonchli hamkorimiz. Ularning jamoasi sovutish va VRV tizimlari haqida hamma narsani biladi. Ularning professional yondashuvi tufayli jihozlarimiz doimo a'lo darajada ishlaydi.",
+        "7":"Yodik Abramov"
+    },
+    "Form":{
+        "0":"Yordam kerakmi?",
+        "1":"Sizga tajribali mutaxassis kerakmi?",
+        "2":"Bugun biz bilan bog'laning va biz sizga uskunangizni ta'mirlash, texnik xizmat ko'rsatish va profilaktik xizmat ko'rsatishda yordam berishdan mamnun bo'lamiz.",
+        "3":"Biz bilan bog'lanish",
+        "4":"So'rovingizni qoldiring",
+        "5":"Ism :",
+        "6":"E-mail manzili :",
+        "7":"Telefon :",
+        "8":"Rahmat siz bilan bog'lanamiz",
+        "9":"Iltimos, qayta yuborib ko‘ring"
+    },
+    "Blog":{
+        "0":"Blog va yangiliklar",
+        "1":"Eng so'nggi blog postlari va yangiliklari"
+    },
+    "Footer":{
+        "0":"Biz bilan bog'lanish",
+        "1":"Ish vaqti",
+        "2":"Du-Sha 09 - 05",
+        "3":"Telefon",
+        "4":"Электронная почта",
+        "5":"Mualliflik huquqi©2023 SuperSite.uz ishlab chiqarildi!"
+    }
+}

@@ -1,0 +1,68 @@
+.card {
+    padding: 50px;
+    max-width: 500px;
+    background-color: #eb3000;
+}
+
+.card>h3 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form>label {
+    width: 90%;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.form>label:nth-child(4) {
+    align-items: flex-start;
+}
+
+.form>label>input {
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.form>label>textarea {
+    resize: none;
+    border: none;
+    outline: none;
+    height: 95px;
+}
+
+.btn {
+    max-width: 250px;
+    background-color: #0a0a0a;
+}
+
+@media only screen and (max-width: 890px){
+    .card {
+        padding: 20px;
+        width: 65%;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .card {
+        padding: 20px;
+        width: 95%;
+        max-width: 100%;
+    }
+}

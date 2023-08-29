@@ -1,0 +1,36 @@
+.card{
+    max-width: 400px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.card>img{
+    width: 100%;
+}
+
+.card_bottom{
+    width: 100%;
+    position: absolute;
+    bottom: 2px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(143, 124, 124,.6);
+}
+
+.card_bottom>h3{
+    display: flex;
+    justify-content: center;
+    max-width: 85%;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 870px){
+    .card{
+        width: 80%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}

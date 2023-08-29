@@ -1,0 +1,57 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_bottom{
+    margin-top: -130px;
+    padding: 30px 40px;
+    background-color: #ffffff;
+    max-width: 280px;
+    min-height: 220px;
+}
+
+.card_bootom_box{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.card_bootom_box>div{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-image: url(../../../assets/piston.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #EB3300;
+}
+
+.card_bootom_box>h3{
+    line-height: 25px;
+    max-width: 160px;
+}
+
+.card_bottom>p{
+    color: #4B4B4B;
+    line-height: 24px;
+}
+
+@media only screen and (max-width: 871px){
+    .card{
+        width: 100%;
+        max-width: 100%;
+    }
+    
+
+    .card>img{
+        width: 100%;
+    }
+
+    .card_bottom{
+        width: 70%;
+        max-width: 100%;
+        text-align: center;
+    }
+}

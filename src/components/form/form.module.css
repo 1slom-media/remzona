@@ -1,0 +1,90 @@
+.form{
+    padding-top: 150px;
+    padding-bottom: 80px;
+    background-image: url(../../assets/line-rotate.svg);
+    background-repeat: no-repeat;
+    background-position: 40% 80%;
+}
+
+.form_row{
+    margin: 0 !important;
+    align-items: center !important;
+}
+
+.form_heading{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-bottom: 15px;
+}
+
+.form_heading>h4{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    color: #EB3300;
+    text-transform: uppercase;
+}
+
+.form_left_col>h2{
+    max-width: 430px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #0a0a0a;
+}
+
+.form_left_col>p{
+    font-weight: 400;
+    line-height: 28px;
+    color: #4b4b4b;
+    max-width: 540px;
+    margin-bottom: 40px;
+}
+
+.form_contact{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.form_contact_phone{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(235, 51, 0,.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_contact_content>h6{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #4b4b4b;
+}
+
+.form_contact_content>a{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #0A0A0A;
+}
+
+@media only screen and (max-width: 890px){
+    .form_row{
+        justify-content: center !important;
+    }
+
+    .form_row>div{
+        width: 1005 !important;
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+        margin-bottom: 40px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

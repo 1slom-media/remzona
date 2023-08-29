@@ -1,0 +1,35 @@
+.portfolio{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url(../../assets/portfolio-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.portfolio_heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    margin-bottom: 15px;
+}
+
+.portfolio_heading>h4{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    color: #EB3300;
+    text-transform: uppercase;
+}
+
+.portfolio_title{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #ffffff;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
