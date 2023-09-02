@@ -29,7 +29,7 @@ const Blog = () => {
     centerMode: true,
     infinite: true,
     centerPadding: "10px",
-    slidesToShow: blogGetState.length <=2 ? blogGetState.length : 3,
+    slidesToShow: blogGetState.length <= 2 ? blogGetState.length : 3,
     autoplay: true,
     speed: 2000,
     autoplaySpeed: 2000,
@@ -39,7 +39,7 @@ const Blog = () => {
       {
         breakpoint: 1230,
         settings: {
-          slidesToShow: blogGetState.length <=2 ? blogGetState.length : 2,
+          slidesToShow: blogGetState.length <= 2 ? blogGetState.length : 2,
           slidesToScroll: 2,
           rows: 1,
           dots: false,
@@ -90,6 +90,14 @@ const Blog = () => {
                   ? blog.month_uz
                   : blog.month_ru
               }
+              textLink={
+                LangVal() == "ru"
+                  ? blog.text_ru
+                  : LangVal() == "uz"
+                  ? blog.text_uz
+                  : blog.text_ru
+              }
+              link={blog.link}
               image={blog.image}
             />
           ))}

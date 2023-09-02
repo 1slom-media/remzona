@@ -57,6 +57,13 @@
     color: #4b4b4b;
 }
 
+.content_box>a{
+    font-weight: 400;
+    line-height: 28px;
+    color: #eb3000;
+    text-decoration: underline;
+}
+
 @media only screen and (max-width: 870px){
     .card{
         width: 80%;

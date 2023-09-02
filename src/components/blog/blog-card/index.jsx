@@ -13,6 +13,7 @@ export const BlogCard=(props)=>{
                 </div>
                 <h3>{props.title}</h3>
                 <p>{props.text}</p>
+                <a href={props.link} target='_blank'>{props.textLink}</a>
             </div>
         </div>
     )
