@@ -58,7 +58,7 @@ const Footer = () => {
                 <RiMailOpenLine size={25} color="#eb3000" />
                 <div>
                   <p>{t("Footer.4")}</p>
-                  <a href="mailto:info@rem-zona.uz">info@rem-zona.uz</a>
+                  <a href="mailto:remzonauz2023@gmail.com">remzonauz2023@gmail.com</a>
                 </div>
               </div>
             </Col>

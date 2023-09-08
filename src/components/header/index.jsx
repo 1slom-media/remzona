@@ -36,7 +36,7 @@ const Header = () => {
               <ul className={styles.header_list}>
                 <li className={styles.header_item}>
                   <RiMailOpenLine className={styles.header_adress_icon} />
-                  <a href="mailto:info@rem-zona.uz">info@rem-zona.uz</a>
+                  <a href="mailto:remzonauz2023@gmail.com">remzonauz2023@gmail.com</a>
                 </li>
                 <li className={styles.header_item}>
                   <FiClock className={styles.header_adress_icon} />
@@ -110,7 +110,7 @@ const Header = () => {
                 >
                   <li className={styles.header_item}>
                     <RiMailOpenLine className={styles.header_adress_icon} />
-                    <a href="mailto:info@rem-zona.uz">info@rem-zona.uz</a>
+                    <a href="mailto:remzonauz2023@gmail.com">remzonauz2023@gmail.com</a>
                   </li>
                   <li className={styles.header_item}>
                     <FiClock className={styles.header_adress_icon} />

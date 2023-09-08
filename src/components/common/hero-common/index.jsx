@@ -25,7 +25,7 @@ const HeroCommon = ({
               sx={12}
               sm={12}
             >
-              <h2>{heroTitle}</h2>
+              <h1>{heroTitle}</h1>
               <p className={styles.hero_text}>{heroText}</p>
               <div className={styles.hero_buttons}>
                 {isBtn === true ? <a href="tel:+998946780008">{heroBtn}</a> : null}
