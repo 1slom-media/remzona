@@ -4,7 +4,7 @@ export const BlogCard=(props)=>{
     return(
         <div className={styles.card} >
             <div className={styles.img_box}>
-                <img src={props.image} alt="" />
+                <img src={props.image} alt="blog img" />
             </div>
             <div className={styles.content_box}>
                 <div className={styles.date_box}>

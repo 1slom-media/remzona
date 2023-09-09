@@ -62,9 +62,9 @@ const Portfolio = () => {
     <div className={styles.portfolio} id="Portfolio">
       <BigContainer>
         <div className={styles.portfolio_heading}>
-          <img src={left} alt="" />
+          <img src={left} alt="left arrow" />
           <h4>{t("Portfolio.0")}</h4>
-          <img src={right} alt="" />
+          <img src={right} alt="right arrow" />
         </div>
         <h2 className={styles.portfolio_title}>
         {t("Portfolio.1")}

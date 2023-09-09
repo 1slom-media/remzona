@@ -66,7 +66,7 @@ const Header = () => {
             <Row className={styles.header_bottom_row}>
               <Col className={styles.logo} lg={2} md={2} sx={6} sm={6}>
                 <a href="/">
-                  <img src={LogoImg} alt="" />
+                  <img src={LogoImg} alt="logo image" />
                 </a>
               </Col>
               <Col

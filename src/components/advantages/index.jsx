@@ -18,7 +18,7 @@ const Advantages = () => {
         <Row className={styles.advantages_row}>
           <Col className={styles.advantages_col}>
             <div className={styles.advantages_heading}>
-              <img src={left} alt="" />
+              <img src={left} alt="left arrow" />
               <h4>{t("Advantages.0")}</h4>
             </div>
             <h2>
@@ -26,17 +26,17 @@ const Advantages = () => {
             </h2>
             <div className={styles.advantages_cards}>
               <div className={styles.advantages_card}>
-                <img src={settings} alt="" />
+                <img src={settings} alt="settings icon" />
                 <h5> {t("Advantages.2")}</h5>
                 <p>{t("Advantages.3")}</p>
               </div>
               <div className={styles.advantages_card}>
-                <img src={masterIcon} alt="" />
+                <img src={masterIcon} alt="master icon" />
                 <h5> {t("Advantages.4")}</h5>
                 <p>{t("Advantages.5")}</p>
               </div>
               <div className={styles.advantages_card}>
-                <img src={piston} alt="" />
+                <img src={piston} alt="porshon icon" />
                 <h5>{t("Advantages.6")}</h5>
                 <p>{t("Advantages.7")}</p>
               </div>
@@ -57,7 +57,7 @@ const Advantages = () => {
           </Col>
           <Col className={styles.advantages_right_col}>
             <div className={styles.advantages_right_wrapper}>
-              <img src={advantagesImg} alt="" />
+              <img src={advantagesImg} alt="advantages image" />
               <div className={styles.advantages_right_content}>
                 <h4>14 000+</h4>
                 <p>{t("Advantages.10")}</p>

@@ -15,7 +15,7 @@ const Form = () => {
         <Row className={styles.form_row}>
           <Col className={styles.form_left_col}>
             <div className={styles.form_heading}>
-              <img src={left} alt="" />
+              <img src={left} alt="left arrow" />
               <h4>{t("Form.0")}</h4>
             </div>
             <h2>{t("Form.1")}</h2>

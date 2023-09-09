@@ -37,9 +37,9 @@ const Services = () => {
       <BigContainer>
         <div className={styles.services_wrapper}>
           <div className={styles.services_heading}>
-            <img src={left} alt="" />
+            <img src={left} alt="left arrow" />
             <h4>{t("Services.0")}</h4>
-            <img src={right} alt="" />
+            <img src={right} alt="right arrow" />
           </div>
           <h2>{t("Services.1")}</h2>
         </div>

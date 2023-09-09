@@ -14,15 +14,15 @@ const About = () => {
       <BigContainer>
         <Row className={styles.about_row}>
           <Col lg={4} md={5} sx={12} sm={12} className={styles.about_left_col}>
-            <img src={aboutImg} alt="" />
+            <img src={aboutImg} alt="about img" />
             <div className={styles.about_left_content}>
-              <img src={masterImg} alt="" />
+              <img src={masterImg} alt="master icon" />
               <h5>{t("About.0")}</h5>
             </div>
           </Col>
           <Col lg={5} md={5} sx={12} sm={12} className={styles.about_right_col}>
             <div className={styles.about_heading}>
-              <img src={left} alt="" />
+              <img src={left} alt="left arrow" />
               <h4>{t("About.1")}</h4>
             </div>
             <h2>{t("About.2")}</h2>

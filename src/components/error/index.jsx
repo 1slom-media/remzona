@@ -16,7 +16,7 @@ export const Error = () => {
                     <Link className={styles.error_btn} to="/"><Button><BsArrowLeft className={styles.arrow_icon}/>Главная меню</Button></Link>
                 </Col>
                 <Col className={`${styles.error_col} ${styles.error_bottom}`}>
-                    <img src={ErrorImg} alt="" />
+                    <img src={ErrorImg} alt="error page image" />
                 </Col>
             </Row>
         </BigContainer>

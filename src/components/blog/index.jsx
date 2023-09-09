@@ -59,9 +59,9 @@ const Blog = () => {
     <div className={styles.blog} id="Blog">
       <BigContainer>
         <div className={styles.blog_heading}>
-          <img src={left} alt="" />
+          <img src={left} alt="left arrow" />
           <h4>{t("Blog.0")}</h4>
-          <img src={right} alt="" />
+          <img src={right} alt="right arrow" />
         </div>
         <h2 className={styles.blog_title}>{t("Blog.1")}</h2>
         <Slider {...settings}>

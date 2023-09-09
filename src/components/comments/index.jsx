@@ -31,9 +31,9 @@ const Comments = () => {
     <div className={styles.comments} id="Comments">
       <BigContainer>
         <div className={styles.comments_heading}>
-          <img src={left} alt="" />
+          <img src={left} alt="left arrow" />
           <h4>{t("Comments.0")}</h4>
-          <img src={right} alt="" />
+          <img src={right} alt="right arrow" />
         </div>
         <h2 className={styles.comments_title}>{t("Comments.1")}</h2>
         <Row className={styles.comments_row}>
