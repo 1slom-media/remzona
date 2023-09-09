@@ -23,7 +23,7 @@
     height: 100%;
 }
 
-.home_hero_col>h2 {
+.home_hero_col>h1 {
     max-width: 90%;
     margin-top: 0;
     font-style: normal;
@@ -76,7 +76,7 @@
         height: 306px;
     }
 
-    .home_hero_col>h2 {
+    .home_hero_col>h1 {
         font-size: 30px;
         line-height: 120%;
     }
@@ -111,7 +111,7 @@
         text-align: center;
     }
 
-    .home_hero_col>h2 {
+    .home_hero_col>h1 {
         text-align: center;
     }
 }
@@ -133,7 +133,7 @@
 }
 
 @media only screen and (max-width: 359px) {
-    .home_hero_col>h2 {
+    .home_hero_col>h1 {
         font-size: 26px;
         line-height: 120%;
     }
