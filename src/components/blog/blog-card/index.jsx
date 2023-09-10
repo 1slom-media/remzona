@@ -12,8 +12,8 @@ export const BlogCard=(props)=>{
                     <p>{props.month}</p>
                 </div>
                 <h3>{props.title}</h3>
-                <p>{props.text}</p>
-                <a href={props.link} target='_blank'>{props.textLink}</a>
+                <h5 className={styles.blog_text}>{props.text}</h5>
+                <a href={props.link}>{props.textLink}</a>
             </div>
         </div>
     )
