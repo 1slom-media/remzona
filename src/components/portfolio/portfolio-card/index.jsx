@@ -5,7 +5,7 @@ export const PortfolioCard = (props) => {
     <div className={styles.card}>
       <img src={props.image} alt="portfolio image" />
       <div className={styles.card_bottom}>
-        <h3>{props.title}</h3>
+        <h2>{props.title}</h2>
       </div>
     </div>
   );

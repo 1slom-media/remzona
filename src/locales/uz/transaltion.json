@@ -1,6 +1,6 @@
 {
     "Header":{
-        "0":"Du-Sha 09 - 05",
+        "0":"Du-Sha 09:00 - 17:00",
         "1":"Toshkent, O`zbekiston",
         "2":"Kompaniya haqida",
         "3":"Xizmatlar",
@@ -46,8 +46,8 @@
         "6":"Do'stona 24/7 Xizmatlar",
         "7":"Do'stona xizmat bo'lganlar",
         "8":"Mijoz mamnun",
-        "9":"biz bilan bog'lanish",
-        "10":"Bizning xizmatlarimizdan xursand mijozlar"
+        "9":"Biz bilan bog'lanish",
+        "10":"bizning xizmatlarimizdan xursand mijozlar"
     },
     "Portfolio":{
         "0":"Portfolio",
@@ -55,12 +55,12 @@
     },
     "Comments":{
         "0":"Sertifikat",
-        "1":"Mijozlar biz haqimizda nima deyishadi",
-        "2":"“Remzona.uz” hamisha yuqorida turgan ishonchli hamkor. Ularning mutaxassislari sifatli ta'mirlashni ta'minlab, jihozlar bilan bog'liq har qanday muammolarga tezda javob berishadi. Professionallik uchun rahmat!",
+        "1":"Mijozlar biz haqimizda nima deyishadi ?",
+        "2":"Remzona.uz hamisha yuqorida turgan ishonchli hamkor. Ularning mutaxassislari sifatli ta'mirlashni ta'minlab, jihozlar bilan bog'liq har qanday muammolarga tezda javob berishadi. Professionallik uchun rahmat!",
         "3":"Bobur Abdullayev",
-        "4":"“Remzona.uz” bilan hamkorlik kafolatlangan sifatli va tezkor xizmatdir. Ular iqlim uskunalarini ta'mirlash va texnik xizmat ko'rsatish sohasida o'zlarini mutaxassislar sifatida ko'rsatdilar. Tavsiya etiladi!",
+        "4":"Remzona.uz bilan hamkorlik kafolatlangan sifatli va tezkor xizmatdir. Ular iqlim uskunalarini ta'mirlash va texnik xizmat ko'rsatish sohasida o'zlarini mutaxassislar sifatida ko'rsatdilar. Tavsiya etiladi!",
         "5":"Asadulla Abdukarimovich",
-        "6":"“Remzona.uz” bizning ishonchli hamkorimiz. Ularning jamoasi sovutish va VRV tizimlari haqida hamma narsani biladi. Ularning professional yondashuvi tufayli jihozlarimiz doimo a'lo darajada ishlaydi.",
+        "6":"Remzona.uz bizning ishonchli hamkorimiz. Ularning jamoasi sovutish va VRV tizimlari haqida hamma narsani biladi. Ularning professional yondashuvi tufayli jihozlarimiz doimo a'lo darajada ishlaydi.",
         "7":"Yodik Abramov"
     },
     "Form":{
@@ -73,7 +73,8 @@
         "6":"E-mail manzili :",
         "7":"Telefon :",
         "8":"Rahmat siz bilan bog'lanamiz",
-        "9":"Iltimos, qayta yuborib ko‘ring"
+        "9":"Iltimos, qayta yuborib ko‘ring",
+        "10":"Sizning sharhlaringiz :"
     },
     "Blog":{
         "0":"Blog va yangiliklar",
@@ -82,9 +83,9 @@
     "Footer":{
         "0":"Biz bilan bog'lanish",
         "1":"Ish vaqti",
-        "2":"Du-Sha 09 - 05",
+        "2":"Du-Sha 09:00 - 17:00",
         "3":"Telefon",
         "4":"Электронная почта",
-        "5":"Mualliflik huquqi©2023 SuperSite.uz ishlab chiqarildi!"
+        "5":"©Supersite.uz jamoasi tomonidan ishlab chiqilgan"
     }
 }

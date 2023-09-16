@@ -12,7 +12,7 @@ export const BlogCard=(props)=>{
                     <p>{props.month}</p>
                 </div>
                 <h3>{props.title}</h3>
-                <h5 className={styles.blog_text}>{props.text}</h5>
+                <h4 className={styles.blog_text}>{props.text}</h4>
                 <a href={props.link}>{props.textLink}</a>
             </div>
         </div>

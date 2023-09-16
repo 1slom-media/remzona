@@ -58,8 +58,23 @@ const Footer = () => {
                 <RiMailOpenLine size={25} color="#eb3000" />
                 <div>
                   <p>{t("Footer.4")}</p>
-                  <a href="mailto:remzonauz2023@gmail.com">remzonauz2023@gmail.com</a>
+                  <a href="mailto:remzonauz2023@gmail.com">
+                    remzonauz2023@gmail.com
+                  </a>
                 </div>
+              </div>
+            </Col>
+            <Col className={styles.map_col}>
+              <div className={styles.footer_map}>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11991.383023356178!2d69.361119!3d41.2904613!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef5ccce47d701%3A0x9ba0b1c166c50864!2sREMZONA!5e0!3m2!1sru!2s!4v1694446989948!5m2!1sru!2s"
+                  width="500"
+                  height="300"
+                  style={{ border: "0" }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
               </div>
             </Col>
           </Row>
@@ -68,6 +83,13 @@ const Footer = () => {
       <div className={styles.footer_bottom}>
         <BigContainer>
           <a href="https://supersite.uz">{t("Footer.5")}</a>
+          <a
+            href="http://www.search.uz/"
+            className={styles.hidden}
+            title="Узбекистан"
+          >
+            Search.uz: интернет каталог сайтов Узбекистана
+          </a>
         </BigContainer>
       </div>
     </div>

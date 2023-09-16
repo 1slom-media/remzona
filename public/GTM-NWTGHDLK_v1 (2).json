@@ -1,0 +1,70 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2023-09-10 09:23:41",
+    "containerVersion": {
+        "path": "accounts/6194945664/containers/165224319/versions/1",
+        "accountId": "6194945664",
+        "containerId": "165224319",
+        "containerVersionId": "1",
+        "name": "Empty Container",
+        "container": {
+            "path": "accounts/6194945664/containers/165224319",
+            "accountId": "6194945664",
+            "containerId": "165224319",
+            "name": "rem-zona.uz",
+            "publicId": "GTM-NWTGHDLK",
+            "usageContext": [
+                "IOS_SDK_5"
+            ],
+            "fingerprint": "1694089944692",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6194945664/containers/165224319/workspaces?apiLink=container",
+            "features": {
+                "supportUserPermissions": true,
+                "supportEnvironments": true,
+                "supportWorkspaces": true,
+                "supportGtagConfigs": false,
+                "supportBuiltInVariables": true,
+                "supportClients": false,
+                "supportFolders": true,
+                "supportTags": true,
+                "supportTemplates": true,
+                "supportTriggers": true,
+                "supportVariables": true,
+                "supportVersions": true,
+                "supportZones": true,
+                "supportTransformations": false
+            },
+            "tagIds": [
+                "GTM-NWTGHDLK"
+            ]
+        },
+        "builtInVariable": [
+            {
+                "accountId": "6194945664",
+                "containerId": "165224319",
+                "type": "APP_ID",
+                "name": "App ID"
+            },
+            {
+                "accountId": "6194945664",
+                "containerId": "165224319",
+                "type": "APP_NAME",
+                "name": "App Name"
+            },
+            {
+                "accountId": "6194945664",
+                "containerId": "165224319",
+                "type": "APP_VERSION_CODE",
+                "name": "App Version Code"
+            },
+            {
+                "accountId": "6194945664",
+                "containerId": "165224319",
+                "type": "EVENT_NAME",
+                "name": "Event Name"
+            }
+        ],
+        "fingerprint": "1694089944694",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6194945664/containers/165224319/versions/1?apiLink=version"
+    }
+}

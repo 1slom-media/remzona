@@ -27,24 +27,24 @@ const Advantages = () => {
             <div className={styles.advantages_cards}>
               <div className={styles.advantages_card}>
                 <img src={settings} alt="settings icon" />
-                <h5> {t("Advantages.2")}</h5>
-                <p>{t("Advantages.3")}</p>
+                <h5 style={{whiteSpace: "pre-wrap"}}> {t("Advantages.2")}</h5>
+                <p style={{whiteSpace: "pre-wrap"}}>{t("Advantages.3")}</p>
               </div>
               <div className={styles.advantages_card}>
                 <img src={masterIcon} alt="master icon" />
                 <h5> {t("Advantages.4")}</h5>
-                <p>{t("Advantages.5")}</p>
+                <p style={{whiteSpace: "pre-wrap"}}>{t("Advantages.5")}</p>
               </div>
               <div className={styles.advantages_card}>
                 <img src={piston} alt="porshon icon" />
                 <h5>{t("Advantages.6")}</h5>
-                <p>{t("Advantages.7")}</p>
+                <p style={{whiteSpace: "pre-wrap"}}>{t("Advantages.7")}</p>
               </div>
             </div>
-            <h4>{t("Advantages.8")}</h4>
-            <div className={styles.advantages_line}>
+            {/* <h4>{t("Advantages.8")}</h4> */}
+            {/* <div className={styles.advantages_line}>
               <div></div>
-            </div>
+            </div> */}
             <div className={styles.advantages_contact}>
               <div className={styles.advantages_contact_phone}>
                 <FiPhoneCall size={30} style={{ color: "#eb3000" }} />

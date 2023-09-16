@@ -52,8 +52,10 @@
     text-transform: uppercase;
 }
 
-.about_right_col>p {
-    line-height: 28px;
+.about_right_col>h4 {
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
     color: #4B4B4B;
     max-width: 620px;
 }

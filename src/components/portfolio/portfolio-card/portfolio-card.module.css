@@ -20,7 +20,7 @@
     background-color: rgba(143, 124, 124,.6);
 }
 
-.card_bottom>h3{
+.card_bottom>h2{
     display: flex;
     justify-content: center;
     max-width: 85%;

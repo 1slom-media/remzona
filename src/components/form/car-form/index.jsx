@@ -133,6 +133,7 @@ export const CardForm = (props) => {
             value={coment}
             name="message"
             type="text"
+            placeholder={t("Form.10")}
             onChange={(e) => setComent(e.currentTarget.value)}
           ></textarea>
         </label>

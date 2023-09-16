@@ -26,9 +26,9 @@ const About = () => {
               <h4>{t("About.1")}</h4>
             </div>
             <h2>{t("About.2")}</h2>
-            <p>
+            <h4>
             {t("About.3")}
-            </p>
+            </h4>
           </Col>
         </Row>
       </BigContainer>
